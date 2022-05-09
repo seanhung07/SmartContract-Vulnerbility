@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract KingOfEther",
+						"name": "_kingOfEther",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"infosec/Denial of service/dos.sol": "Attack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"infosec/Denial of service/dos.sol": {
+			"keccak256": "0x5da652684cc79aa9f51d1d1547128a6107811a095006602a92a2d671da4e13bd",
+			"urls": [
+				"bzz-raw://866aee544511cde332c8bb06a67158499110e7250375748705c86a0929aa2a0a",
+				"dweb:/ipfs/QmWLM9dvYQh61o4eJwnWLVXaJMd3SsKp4cwDVMhouKGphn"
+			]
+		},
+		"infosec/Denial of service/king.sol": {
+			"keccak256": "0x3987be57c705e60169e83fd8c16193206c1a1803af6b23319881c221ac053a62",
+			"urls": [
+				"bzz-raw://af67b095cb86729adbba22a0392fad8c7a05cf154942defc4df9e547e93277c4",
+				"dweb:/ipfs/QmUhgGGTyHQ4RWY8i9k8t8Qxj4kpLvHaBjf8n61zWXo8Ek"
+			]
+		}
+	},
+	"version": 1
+}

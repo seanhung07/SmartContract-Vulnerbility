@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_guess",
+						"type": "uint256"
+					}
+				],
+				"name": "guess",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"infosec/Bad random/random.sol": "GuessTheRandomNumber"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"infosec/Bad random/random.sol": {
+			"keccak256": "0x69223632105110a869318271dae14d8396a2875f534be88cf2e3d79d98d32d4b",
+			"urls": [
+				"bzz-raw://20a472047e28fc963ce4ca4dafd883f8bb024777158bf3f8932188616ccb8956",
+				"dweb:/ipfs/QmWbCwkdXuCNPZnukSsDatzUwG5TbwtPtTd2eZQoWyLQv1"
+			]
+		}
+	},
+	"version": 1
+}

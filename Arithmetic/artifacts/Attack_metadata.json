@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract TimeLock",
+						"name": "_timeLock",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"infosec/arithmetic/attack_arithmetic.sol": "Attack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"infosec/arithmetic/arithmetic.sol": {
+			"keccak256": "0xbed5bddc552ec30c7bf6e27a48431ed63eb4397aaffae72fba2aa6a0256aa1c7",
+			"urls": [
+				"bzz-raw://852a077f8d96956f36fa3871bf03758c5987ddbd86e79a0df46b3e2f2e32632e",
+				"dweb:/ipfs/QmdffxCFeAX4kNxTBak2sc4VHoRY1WRSpfNWSuNbmWm1FZ"
+			]
+		},
+		"infosec/arithmetic/attack_arithmetic.sol": {
+			"keccak256": "0x5f3ffad8600697ec7fc96edcffe8ca06abafd3e7f865178940ea47b3ab6d013b",
+			"urls": [
+				"bzz-raw://b80150da331fd0b9a35f10fd73b83f42fba24eb4f1c9e1ef7835674286d7c57d",
+				"dweb:/ipfs/QmXwK1ifvnfhkpPAh7TLYim6uCe3q62uPE9JkMvy8SLgx8"
+			]
+		}
+	},
+	"version": 1
+}

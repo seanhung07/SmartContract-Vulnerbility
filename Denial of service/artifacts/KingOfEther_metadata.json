@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "becomeKing",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "king",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"infosec/Denial of service/king.sol": "KingOfEther"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"infosec/Denial of service/king.sol": {
+			"keccak256": "0x3987be57c705e60169e83fd8c16193206c1a1803af6b23319881c221ac053a62",
+			"urls": [
+				"bzz-raw://af67b095cb86729adbba22a0392fad8c7a05cf154942defc4df9e547e93277c4",
+				"dweb:/ipfs/QmUhgGGTyHQ4RWY8i9k8t8Qxj4kpLvHaBjf8n61zWXo8Ek"
+			]
+		}
+	},
+	"version": 1
+}

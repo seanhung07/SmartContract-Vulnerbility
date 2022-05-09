@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract GuessTheRandomNumber",
+						"name": "guessTheRandomNumber",
+						"type": "address"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"infosec/Bad random/attack.sol": "Attack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"infosec/Bad random/attack.sol": {
+			"keccak256": "0x518edf273e6eead4619b18aa709a5685dbae1507dcee6d36815ba3bff65040ff",
+			"urls": [
+				"bzz-raw://21312454340591b7bfc98515a7858479e4f5264e8a294488e0fba194fa71d523",
+				"dweb:/ipfs/QmWBi8H3MajjgYbTC1PE1cSCQ5DoqtCbdYUPUwQyLQTuMA"
+			]
+		},
+		"infosec/Bad random/random.sol": {
+			"keccak256": "0x69223632105110a869318271dae14d8396a2875f534be88cf2e3d79d98d32d4b",
+			"urls": [
+				"bzz-raw://20a472047e28fc963ce4ca4dafd883f8bb024777158bf3f8932188616ccb8956",
+				"dweb:/ipfs/QmWbCwkdXuCNPZnukSsDatzUwG5TbwtPtTd2eZQoWyLQv1"
+			]
+		}
+	},
+	"version": 1
+}
